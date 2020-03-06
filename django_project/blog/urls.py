@@ -1,3 +1,5 @@
+# 3. THIS is where we redirect the stuff in not the biggest counties in the world
+
 from django.urls import path
 from . import views
 

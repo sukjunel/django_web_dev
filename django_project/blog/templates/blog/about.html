@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <tilte>title about</tilte>
+    {% if title %}
+        <tilte>Django Blog - {{ title }}</tilte>
+    {% else %}
+        <tilte>Django Blog</tilte>
+    {% endif %}
 </head>
 
 <body>
