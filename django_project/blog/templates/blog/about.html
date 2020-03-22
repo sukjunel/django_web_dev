@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {% if title %}
-        <tilte>Django Blog - {{ title }}</tilte>
-    {% else %}
-        <tilte>Django Blog</tilte>
-    {% endif %}
-</head>
-
-<body>
+{% extends "blog/base.html" %}
+{% block content %}
     <h1>blog about</h1>
-</body>
-</html>
+{% endblock content %}
